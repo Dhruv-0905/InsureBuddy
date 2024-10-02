@@ -89,5 +89,5 @@
 
 Contributions are welcome! Please open an issue or create a pull request.
 
-##Special Mentions
--WildVamp
+## Special Mentions
+-WildVamp (https://github.com/WildVamp)
