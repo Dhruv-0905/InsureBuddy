@@ -1,0 +1,41 @@
+/* Container styles for the landing page */
+.landing-page {
+    text-align: center; /* Center align the text */
+    padding: 40px; /* Add padding for spacing */
+    background-color: #e9f7fa; /* Soft light blue background */
+    min-height: 100vh; /* Full height for better visibility */
+}
+
+/* Title styles */
+.landing-page h1 {
+    font-size: 2.5rem; /* Larger font size for the main title */
+    color: #00695c; /* Teal color for the main title */
+    margin-bottom: 15px; /* Space below the title */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Subtitle styles */
+.landing-page h2 {
+    font-size: 1.5rem; /* Slightly smaller font size */
+    color: #004d40; /* Darker teal for subtitle */
+    margin-bottom: 25px; /* Space below the subtitle */
+}
+
+/* Button styles */
+.landing-page button {
+    background-color: #00796b; /* Medium teal color */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 12px 25px; /* Padding for button */
+    margin: 5px; /* Space between buttons */
+    font-size: 1rem; /* Button text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition on hover */
+}
+
+/* Button hover effect */
+.landing-page button:hover {
+    background-color: #004d40; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}

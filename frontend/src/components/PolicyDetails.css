@@ -1,0 +1,46 @@
+/* Container styles for the policy details page */
+.policy-details {
+    text-align: center; /* Center align text */
+    padding: 40px; /* Add padding for spacing */
+    background-color: #e9f7fa; /* Light blue background similar to landing page */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px; /* Max width for better readability */
+    margin: 50px auto; /* Center horizontally and add margin at the top */
+}
+
+/* Title styles */
+.policy-title {
+    font-size: 2rem; /* Larger font size for the policy title */
+    color: #00695c; /* Teal color for title */
+    margin-bottom: 15px; /* Space below the title */
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* Description styles */
+.policy-description {
+    font-size: 1.2rem; /* Medium font size for description */
+    color: #555; /* Medium gray color */
+    margin-bottom: 30px; /* Space below description */
+    line-height: 1.5; /* Improve readability with line height */
+    
+}
+
+/* Button styles */
+.proceed-button {
+    background-color: #00796b; /* Medium teal color */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 12px 25px; /* Padding for button */
+    font-size: 1rem; /* Button text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+/* Button hover effect */
+.proceed-button:hover {
+    background-color: #004d40; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}

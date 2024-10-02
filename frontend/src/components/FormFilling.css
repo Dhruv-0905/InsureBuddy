@@ -1,0 +1,67 @@
+/* General styles for the form container */
+.form-container {
+    max-width: 600px;        /* Set a maximum width for the form */
+    margin: 20px auto;      /* Center the form horizontally with margin */
+    padding: 20px;          /* Add some padding for better spacing */
+    border: 1px solid #ccc; /* Light gray border around the form */
+    border-radius: 8px;     /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #fff; /* White background for the form */
+}
+
+/* Header styles */
+.form-container h2 {
+    text-align: center;      /* Center the title */
+    color: #333;             /* Dark gray color for the text */
+    margin-bottom: 20px;     /* Space below the title */
+}
+
+/* Input styles */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="file"] {
+    width: 100%;             /* Full width for inputs */
+    padding: 10px;          /* Padding inside inputs */
+    margin: 10px 0;         /* Margin between inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;     /* Slightly rounded corners */
+    font-size: 16px;        /* Increase font size for better readability */
+}
+
+/* Input focus styles */
+.form-container input[type="text"]:focus,
+.form-container input[type="email"]:focus {
+    border-color: #007BFF;  /* Change border color on focus */
+    outline: none;          /* Remove default outline */
+}
+
+/* Button styles */
+.form-container button {
+    width: 100%;             /* Full width for the button */
+    padding: 10px;          /* Padding inside the button */
+    margin-top: 20px;       /* Space above the button */
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: white;           /* White text color */
+    border: none;           /* No border */
+    border-radius: 4px;     /* Slightly rounded corners */
+    font-size: 16px;        /* Increase font size */
+    cursor: pointer;        /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+/* Button hover styles */
+.form-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Label styles */
+.form-container label {
+    display: block;          /* Block display for labels */
+    margin-top: 10px;       /* Space above the label */
+    font-size: 14px;        /* Standard font size */
+}
+
+/* Checkbox styles */
+.form-container input[type="checkbox"] {
+    margin-right: 10px;     /* Space between checkbox and label text */
+}

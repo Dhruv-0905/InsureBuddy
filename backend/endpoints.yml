@@ -1,0 +1,20 @@
+# This file contains the different endpoints your bot can use.
+
+# Action endpoint for custom actions
+action_endpoint:
+  url: "http://localhost:5055/webhook"
+
+# Tracker store (optional, use only if needed)
+tracker_store:
+  type: redis  # Uncomment if using Redis
+  url: localhost
+  port: 6379
+  db: 0
+  password: ""  # Fill if required
+
+# Uncomment and configure if using an event broker
+# event_broker:
+#   url: localhost
+#   username: username
+#   password: password
+#   queue: queue

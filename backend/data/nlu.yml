@@ -1,0 +1,31 @@
+version: "3.0"
+nlu:
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey
+      - Good morning
+
+  - intent: ask_policy_types
+    examples: |
+      - What types of policies do you offer?
+      - Tell me about your insurance policies
+      - What are the insurance policies available?
+
+  - intent: ask_policy_details
+    examples: |
+      - Can you tell me more about life insurance?
+      - What does car insurance cover?
+      - Tell me about health insurance
+
+  - intent: thanks
+    examples: |
+      - Thanks
+      - Thank you
+
+  - intent: goodbye
+    examples: |
+      - Goodbye
+      - Bye
+      - See you later

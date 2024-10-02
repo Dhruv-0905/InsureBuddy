@@ -1,0 +1,26 @@
+version: "3.0"
+intents:
+  - greet
+  - ask_policy_types
+  - ask_policy_details
+  - thanks
+  - goodbye  # Add the missing goodbye intent
+
+responses:
+  utter_iamabot:
+    - text: "I am an AI-powered assistant here to help you with your insurance-related questions."
+
+  utter_greet:
+    - text: "Hello! How can I assist you with your insurance questions today?"
+
+  utter_ask_policy_types:
+    - text: "We offer Health, Life, Car, and Home insurance policies."
+
+  utter_ask_policy_details:
+    - text: "The {policy} policy provides coverage for {description}. Would you like to know more?"
+
+  utter_thanks:
+    - text: "You're welcome! Let me know if you have more questions."
+    
+  utter_goodbye:
+    - text: "Goodbye! Feel free to reach out again if you have more questions."
