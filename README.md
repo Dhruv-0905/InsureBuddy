@@ -1,7 +1,7 @@
 
-# Policy Bazaar
+# Policy Bazaar (Insure Buddy)
 
-**Policy Bazaar** is an AI-powered agent designed to revolutionize insurance accessibility. It helps users understand insurance policies, provides answers to common questions, and assists in filling out application forms through an intuitive interface and document scanning.
+**Policy Bazaar's Insure Buddy** is an AI-powered agent designed to revolutionize insurance accessibility. It helps users understand insurance policies, provides answers to common questions, and assists in filling out application forms through an intuitive interface and document scanning.
 
 ## Features
 
